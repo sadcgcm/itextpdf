@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfAnchor.java,v 1.10 2006/10/05 19:57:54 hallm Exp $
+ * $Name:  $
  *
  * Copyright 2004 by Mark Hall
  *

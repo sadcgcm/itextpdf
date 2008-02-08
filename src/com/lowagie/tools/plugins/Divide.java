@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Divide.java,v 1.1 2006/08/16 07:51:49 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2006 by Carsten Hammer.
  *
@@ -70,7 +70,7 @@ import com.lowagie.tools.arguments.ToolArgument;
 public class Divide extends AbstractTool {
 
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: Divide.java,v 1.1 2006/08/16 07:51:49 blowagie Exp $");
 	}
 
 	/**

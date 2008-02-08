@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: StandardDecryption.java,v 1.2 2006/11/09 18:20:12 xlv Exp $
  *
  * Copyright 2006 Paulo Soares
  *

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: WebColors.java,v 1.6 2006/09/16 19:07:59 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 by Bruno Lowagie.
  *

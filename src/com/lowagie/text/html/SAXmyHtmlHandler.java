@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: SAXmyHtmlHandler.java,v 1.29 2006/09/15 23:37:33 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 by Bruno Lowagie.
  *

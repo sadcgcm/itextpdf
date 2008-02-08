@@ -1,5 +1,5 @@
 /**
- * $Id$
+ * $Id: RtfField.java,v 1.20 2006/09/14 23:10:54 xlv Exp $
  *
  * Copyright 2002 by 
  * <a href="http://www.smb-tec.com">SMB</a> 
@@ -64,7 +64,7 @@ import java.io.OutputStream;
  *
  * This class is based on the RtfWriter-package from Mark Hall.
  * @author Steffen.Stundzig (Steffen.Stundzig@smb-tec.com) 
- * @version $Revision$Date: 2006/09/12 12:16:35 $
+ * @version $Revision: 1.20 $Date: 2006/09/14 23:10:54 $
  * @deprecated Please move to the RtfWriter2 and associated classes.
  */
 public interface RtfField {

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Paragraph.java,v 1.90 2006/11/20 13:42:28 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

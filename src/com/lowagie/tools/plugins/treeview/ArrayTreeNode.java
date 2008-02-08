@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: ArrayTreeNode.java,v 1.6 2006/10/26 14:19:34 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Carsten Hammer.
  *

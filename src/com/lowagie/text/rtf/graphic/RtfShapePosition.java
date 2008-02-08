@@ -9,7 +9,7 @@ import com.lowagie.text.rtf.RtfAddableElement;
  * The RtfShapePosition stores position and ordering
  * information for one RtfShape.
  * 
- * @version $Revision$
+ * @version $Revision: 1.2 $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public class RtfShapePosition extends RtfAddableElement {

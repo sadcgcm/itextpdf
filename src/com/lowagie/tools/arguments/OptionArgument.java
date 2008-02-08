@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: OptionArgument.java,v 1.9 2006/09/15 23:37:37 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *

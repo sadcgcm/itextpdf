@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: BaseFont.java,v 1.73 2006/09/16 19:07:59 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2000-2006 by Paulo Soares.
  *

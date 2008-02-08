@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: PdfEncryption.java,v 1.59 2006/11/27 15:03:50 psoares33 Exp $
  *
  * Copyright 2001-2006 Paulo Soares
  *

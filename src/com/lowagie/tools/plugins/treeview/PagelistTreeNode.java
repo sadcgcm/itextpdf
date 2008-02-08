@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PagelistTreeNode.java,v 1.5 2006/09/15 23:37:38 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Carsten Hammer.
  *

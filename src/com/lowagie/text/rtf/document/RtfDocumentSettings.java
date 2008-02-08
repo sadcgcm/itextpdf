@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfDocumentSettings.java,v 1.7 2006/10/26 14:19:33 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2003, 2004, 2005 by Mark Hall
  *
@@ -59,7 +59,7 @@ import com.lowagie.text.rtf.style.RtfParagraphStyle;
  * how the actual document is then generated and some settings may mean that some
  * RTF readers can't read the document or render it wrongly.
  * 
- * @version $Revision$
+ * @version $Revision: 1.7 $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public class RtfDocumentSettings {

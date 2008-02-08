@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Decrypt.java,v 1.4 2005/11/29 21:05:02 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *
@@ -67,7 +67,7 @@ import com.lowagie.tools.arguments.ToolArgument;
 public class Decrypt extends AbstractTool {
 
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: Decrypt.java,v 1.4 2005/11/29 21:05:02 blowagie Exp $");
 	}
 
 

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Document.java,v 1.118 2006/12/18 13:49:43 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *
@@ -102,7 +102,7 @@ public class Document implements DocListener {
     // membervariables
     
 	/** This constant may only be changed by Paulo Soares and/or Bruno Lowagie. */
-	private static final String ITEXT_VERSION = "iText 1.4.8 (by lowagie.com)";
+	private static final String ITEXT_VERSION = "iText 1.5 (by lowagie.com for Eclipse/BIRT)";
     
 	/**
 	 * Allows the pdf documents to be produced without compression for debugging

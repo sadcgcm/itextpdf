@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfDashPattern.java,v 1.57 2005/05/04 14:33:09 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 Bruno Lowagie
  *

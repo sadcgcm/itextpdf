@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: TrueTypeFontUnicode.java,v 1.56 2006/09/15 23:37:35 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 Paulo Soares
  *

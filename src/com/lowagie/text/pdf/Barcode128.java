@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: Barcode128.java,v 1.22 2006/09/16 19:07:59 xlv Exp $
  *
  * Copyright 2002-2006 by Paulo Soares.
  *

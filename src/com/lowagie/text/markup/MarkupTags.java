@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: MarkupTags.java,v 1.51 2005/06/17 13:39:13 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 by Bruno Lowagie.
  *

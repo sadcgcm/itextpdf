@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: PdfGraphics2D.java,v 1.59 2006/11/11 16:54:25 psoares33 Exp $
  *
  * Copyright 2002 by Jim Moore <jim@scolamoore.com>.
  *

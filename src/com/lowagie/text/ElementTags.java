@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: ElementTags.java,v 1.86 2006/09/15 05:11:54 xlv Exp $
+ * $Name:  $
  *
  * Copyright (c) 2001, 2002 Bruno Lowagie.
  *

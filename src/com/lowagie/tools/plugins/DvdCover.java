@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: DvdCover.java,v 1.11 2005/11/29 21:05:02 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *
@@ -75,7 +75,7 @@ import com.lowagie.tools.arguments.ToolArgument;
 public class DvdCover extends AbstractTool {
 	
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: DvdCover.java,v 1.11 2005/11/29 21:05:02 blowagie Exp $");
 	}
 	
 	/**

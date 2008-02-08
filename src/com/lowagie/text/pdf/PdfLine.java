@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfLine.java,v 1.67 2006/09/14 23:10:49 xlv Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 Bruno Lowagie
  *

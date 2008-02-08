@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PageSelectorToolArgument.java,v 1.6 2006/12/20 11:31:42 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Carsten Hammer
  *
@@ -91,7 +91,7 @@ public class PageSelectorToolArgument
     if (propertyname == null) {
       return;
     }
-    else if (propertyname.equals(name)) {
+    else if (propertyname.equals("srcfile")) {
       String filename = (String) evt.getNewValue();
       if(jDialog1!=null)jDialog1.setVisible(false);
       jDialog1 = new PageSelectionTableDialog(tool.getInternalFrame());

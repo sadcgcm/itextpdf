@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: FileTreeNode.java,v 1.6 2006/09/15 23:37:38 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Carsten Hammer.
  *

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: ExtendedColor.java,v 1.44 2006/09/14 23:39:20 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 by Paulo Soares.
  *

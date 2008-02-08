@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfDictionary.java,v 1.65 2006/11/16 23:54:51 psoares33 Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 Bruno Lowagie
  *

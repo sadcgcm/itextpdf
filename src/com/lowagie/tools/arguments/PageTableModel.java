@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PageTableModel.java,v 1.7 2006/10/26 14:19:34 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Carsten Hammer
  *

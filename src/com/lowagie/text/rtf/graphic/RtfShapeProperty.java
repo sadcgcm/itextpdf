@@ -26,7 +26,7 @@ import com.lowagie.text.rtf.RtfAddableElement;
  *   <li>Point[]</li>
  * </ul>
  * 
- * @version $Revision$
+ * @version $Revision: 1.2 $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public class RtfShapeProperty extends RtfAddableElement {

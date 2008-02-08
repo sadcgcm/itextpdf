@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Type1Font.java,v 1.74 2006/12/21 16:26:19 psoares33 Exp $
+ * $Name:  $
  *
  * Copyright 2001-2006 Paulo Soares
  *
@@ -434,6 +434,11 @@ class Type1Font extends BaseFont
         }
         if (isMetrics)
             throw new DocumentException("Missing EndCharMetrics in " + fileName);
+        if (!CharMetrics.containsKey("nonbreakingspace")) {
+            Object[] space = (Object[])CharMetrics.get("space");
+            if (space != null)
+                CharMetrics.put("nonbreakingspace", space);
+        }
         while ((line = rf.readLine()) != null)
         {
             StringTokenizer tok = new StringTokenizer(line);

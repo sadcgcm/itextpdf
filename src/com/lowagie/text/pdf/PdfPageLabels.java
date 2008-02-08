@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfPageLabels.java,v 1.49 2006/09/21 00:57:35 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 Paulo Soares
  *

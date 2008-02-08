@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfSection.java,v 1.13 2006/09/14 23:10:56 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002, 2003, 2004 by Mark Hall
  *
@@ -69,7 +69,7 @@ import com.lowagie.text.rtf.field.RtfTOCEntry;
  * The RtfSection wraps a Section element.
  * INTERNAL CLASS
  * 
- * @version $Revision$
+ * @version $Revision: 1.13 $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public class RtfSection extends RtfElement {

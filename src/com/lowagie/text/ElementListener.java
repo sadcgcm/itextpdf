@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: ElementListener.java,v 1.48 2004/12/14 11:52:46 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 by Bruno Lowagie.
  *

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfXConformanceException.java,v 1.3 2006/09/14 23:39:20 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2004 Paulo Soares
  *

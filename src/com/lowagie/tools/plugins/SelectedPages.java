@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: SelectedPages.java,v 1.8 2006/08/24 10:51:06 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie
  *
@@ -72,7 +72,7 @@ public class SelectedPages
 
   static {
     addVersion(
-        "$Id$");
+        "$Id: SelectedPages.java,v 1.8 2006/08/24 10:51:06 blowagie Exp $");
   }
 
   /**

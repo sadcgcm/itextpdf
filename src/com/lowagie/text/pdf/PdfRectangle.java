@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfRectangle.java,v 1.59 2006/01/16 13:46:20 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 Bruno Lowagie
  *

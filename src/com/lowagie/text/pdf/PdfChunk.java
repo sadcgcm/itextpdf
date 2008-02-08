@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfChunk.java,v 1.76 2006/11/28 15:01:17 psoares33 Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 Bruno Lowagie
  *

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfChunk.java,v 1.12 2005/07/23 10:57:32 hallm Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002, 2003, 2004 by Mark Hall
  *

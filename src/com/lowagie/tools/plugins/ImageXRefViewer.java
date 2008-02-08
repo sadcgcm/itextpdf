@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: ImageXRefViewer.java,v 1.4 2006/09/14 23:10:57 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Carsten Hammer and Bruno Lowagie.
  *
@@ -83,7 +83,7 @@ import com.lowagie.tools.arguments.ToolArgument;
 public class ImageXRefViewer
   extends AbstractTool {
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: ImageXRefViewer.java,v 1.4 2006/09/14 23:10:57 xlv Exp $");
 	}
 
 	class ViewXRefImages_jSpinner1_propertyChangeAdapter

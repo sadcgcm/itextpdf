@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Jpeg.java,v 1.60 2006/09/14 23:10:40 xlv Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

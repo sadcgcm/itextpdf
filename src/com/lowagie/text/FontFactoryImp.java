@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: FontFactoryImp.java,v 1.8 2006/09/15 23:37:31 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2002 by Bruno Lowagie.
  *

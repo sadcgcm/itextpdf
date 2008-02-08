@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Section.java,v 1.84 2006/11/21 12:57:20 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

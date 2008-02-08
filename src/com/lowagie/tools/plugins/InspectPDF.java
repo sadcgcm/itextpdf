@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: InspectPDF.java,v 1.7 2006/09/21 16:45:04 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *
@@ -68,7 +68,7 @@ import com.lowagie.tools.arguments.ToolArgument;
  */
 public class InspectPDF extends AbstractTool {
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: InspectPDF.java,v 1.7 2006/09/21 16:45:04 xlv Exp $");
 	}
 
 	/**

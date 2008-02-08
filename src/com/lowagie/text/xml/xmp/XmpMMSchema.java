@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: XmpMMSchema.java,v 1.5 2006/09/14 22:38:58 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *

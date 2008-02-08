@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfPCell.java,v 1.60 2006/09/14 23:10:49 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 Paulo Soares
  *

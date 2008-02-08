@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Element.java,v 1.66 2005/05/04 14:41:15 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

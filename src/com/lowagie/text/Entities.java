@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Entities.java,v 1.44 2006/09/13 21:42:57 xlv Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 Bruno Lowagie.
  *

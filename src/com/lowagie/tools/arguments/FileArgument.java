@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: FileArgument.java,v 1.7 2006/05/30 09:13:00 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *

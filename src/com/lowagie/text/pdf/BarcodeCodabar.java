@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: BarcodeCodabar.java,v 1.17 2006/09/15 06:18:47 xlv Exp $
  *
  * Copyright 2002-2006 by Paulo Soares.
  *

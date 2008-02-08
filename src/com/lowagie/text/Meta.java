@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Meta.java,v 1.65 2005/04/13 09:17:11 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

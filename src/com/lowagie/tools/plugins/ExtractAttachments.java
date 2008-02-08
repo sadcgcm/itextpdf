@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: ExtractAttachments.java,v 1.7 2006/09/14 23:10:57 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Paulo Soares and Carsten Hammer.
  *
@@ -76,7 +76,7 @@ import com.lowagie.tools.arguments.ToolArgument;
 public class ExtractAttachments extends AbstractTool {
 
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: ExtractAttachments.java,v 1.7 2006/09/14 23:10:57 xlv Exp $");
 	}
 
 	/**

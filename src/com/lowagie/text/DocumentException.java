@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: DocumentException.java,v 1.51 2006/09/14 23:39:19 xlv Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

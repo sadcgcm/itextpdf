@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: MultiColumnText.java,v 1.21 2006/10/27 17:23:17 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2004 Steve Appling
  *

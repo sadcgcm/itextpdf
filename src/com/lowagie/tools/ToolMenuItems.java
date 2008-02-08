@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: ToolMenuItems.java,v 1.4 2005/08/29 08:44:16 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *

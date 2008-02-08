@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: SimpleCell.java,v 1.7 2005/09/18 13:17:57 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 1999-2005 by Bruno Lowagie.
  *

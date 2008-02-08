@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfExtendedElement.java,v 1.16 2005/05/04 14:33:37 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002, 2003, 2004 by Mark Hall
  *
@@ -53,7 +53,7 @@ package com.lowagie.text.rtf;
 /**
  * The RtfExtendedElement interface is to be used for elements that also
  * write data into the definition part of the rtf document
- * Version: $Id$
+ * Version: $Id: RtfExtendedElement.java,v 1.16 2005/05/04 14:33:37 blowagie Exp $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public interface RtfExtendedElement extends RtfBasicElement {

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: DocListener.java,v 1.52 2004/12/14 11:52:47 blowagie Exp $
+ * $Name:  $
  *
  * Copyright (c) 1999, 2000, 2001, 2002 Bruno Lowagie.
  *

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfHeaderFooter.java,v 1.11 2006/08/07 10:42:34 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002, 2003, 2004 by Mark Hall
  *
@@ -69,7 +69,7 @@ import com.lowagie.text.rtf.field.RtfPageNumber;
  * The RtfHeaderFooter represents one header or footer. This class can be used
  * directly.
  * 
- * @version $Id$
+ * @version $Id: RtfHeaderFooter.java,v 1.11 2006/08/07 10:42:34 blowagie Exp $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public class RtfHeaderFooter extends HeaderFooter implements RtfBasicElement {

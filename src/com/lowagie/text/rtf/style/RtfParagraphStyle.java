@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfParagraphStyle.java,v 1.6 2006/09/16 03:38:45 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002, 2003, 2004 by Mark Hall
  *
@@ -66,7 +66,7 @@ import com.lowagie.text.rtf.text.RtfParagraph;
  * it needs to be set as the font of a Paragraph. Otherwise it will work like a
  * RtfFont. It also supports inheritance of styles.
  * 
- * @version $Revision$
+ * @version $Revision: 1.6 $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public class RtfParagraphStyle extends RtfFont {

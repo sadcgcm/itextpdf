@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: SimpleTable.java,v 1.5 2006/10/27 17:23:16 xlv Exp $
+ * $Name:  $
  *
  * Copyright 1999-2005 by Bruno Lowagie.
  *

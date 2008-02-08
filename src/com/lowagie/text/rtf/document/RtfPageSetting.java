@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfPageSetting.java,v 1.15 2005/02/23 16:57:45 hallm Exp $
+ * $Name:  $
  *
  * Copyright 2003, 2004 by Mark Hall
  *

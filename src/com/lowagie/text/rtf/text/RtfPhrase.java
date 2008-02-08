@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfPhrase.java,v 1.14 2006/02/09 17:13:35 hallm Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002, 2003, 2004 by Mark Hall
  *
@@ -67,7 +67,7 @@ import com.lowagie.text.rtf.style.RtfFont;
 /**
  * The RtfPhrase contains multiple RtfChunks
  * 
- * @version $Id$
+ * @version $Id: RtfPhrase.java,v 1.14 2006/02/09 17:13:35 hallm Exp $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public class RtfPhrase extends RtfElement {

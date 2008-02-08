@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfReaderInstance.java,v 1.54 2006/10/27 17:23:21 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 Paulo Soares
  *

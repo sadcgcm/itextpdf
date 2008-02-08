@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: ByteBuffer.java,v 1.72 2006/09/15 23:37:34 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2000, 2001, 2002 by Paulo Soares.
  *

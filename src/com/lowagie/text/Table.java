@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Table.java,v 1.142 2006/11/09 19:03:50 xlv Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

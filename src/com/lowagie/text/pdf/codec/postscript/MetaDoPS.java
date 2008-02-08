@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: MetaDoPS.java,v 1.8 2006/09/14 23:56:44 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 Paulo Soares
  *

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: split_pdf.java,v 1.20 2006/09/14 23:10:57 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2002 by Bruno Lowagie
  *

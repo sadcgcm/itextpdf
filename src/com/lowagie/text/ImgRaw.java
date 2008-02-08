@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: ImgRaw.java,v 1.61 2005/05/04 14:31:11 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2000, 2001, 2002 by Paulo Soares.
  *

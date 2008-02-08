@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: ImgCCITT.java,v 1.47 2005/05/04 14:31:06 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2000, 2001, 2002 by Paulo Soares.
  *

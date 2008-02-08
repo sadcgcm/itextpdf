@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfInfoGroup.java,v 1.16 2005/05/04 14:33:52 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2003, 2004 by Mark Hall
  *

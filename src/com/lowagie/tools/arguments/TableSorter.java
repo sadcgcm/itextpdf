@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: TableSorter.java,v 1.5 2006/09/15 23:37:37 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Carsten Hammer.
  * Inspired by http://java.sun.com/docs/books/tutorial/uiswing/components/examples/TableSorter.java

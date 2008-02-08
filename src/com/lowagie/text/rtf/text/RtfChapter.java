@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfChapter.java,v 1.18 2005/09/11 20:17:41 hallm Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 by Mark Hall
  *
@@ -62,7 +62,7 @@ import com.lowagie.text.rtf.document.RtfDocument;
  * The RtfChapter wraps a Chapter element.
  * INTERNAL CLASS
  * 
- * @version $Revision$
+ * @version $Revision: 1.18 $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public class RtfChapter extends RtfSection {

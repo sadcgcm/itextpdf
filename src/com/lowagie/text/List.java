@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: List.java,v 1.79 2006/11/09 19:03:49 xlv Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Bookmarks2XML.java,v 1.1 2006/02/02 15:56:53 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Hans-Werner Hilse.
  *
@@ -68,7 +68,7 @@ import com.lowagie.tools.arguments.ToolArgument;
 public class Bookmarks2XML extends AbstractTool {
 
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: Bookmarks2XML.java,v 1.1 2006/02/02 15:56:53 blowagie Exp $");
 	}
 
 	/**

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfTemplate.java,v 1.61 2006/03/02 17:56:30 psoares33 Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 Paulo Soares
  *

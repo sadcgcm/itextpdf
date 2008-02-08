@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfSchema.java,v 1.6 2006/09/14 22:38:58 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *

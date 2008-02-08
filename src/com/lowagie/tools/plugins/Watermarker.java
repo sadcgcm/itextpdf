@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Watermarker.java,v 1.8 2006/09/14 23:10:57 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Carsten Hammer and Bruno Lowagie
  *
@@ -71,7 +71,7 @@ import com.lowagie.tools.arguments.ToolArgument;
 public class Watermarker extends AbstractTool {
 
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: Watermarker.java,v 1.8 2006/09/14 23:10:57 xlv Exp $");
 	}
 
 	/**

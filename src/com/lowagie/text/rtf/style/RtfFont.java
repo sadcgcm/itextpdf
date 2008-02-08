@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfFont.java,v 1.25 2006/09/29 16:47:18 hallm Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002, 2003, 2004 by Mark Hall
  *
@@ -64,7 +64,7 @@ import com.lowagie.text.rtf.document.RtfDocument;
  * BaseFont fontname handling contributed by Craig Fleming. Various fixes
  * Renaud Michel, Werner Daehn.
  *
- * Version: $Id$
+ * Version: $Id: RtfFont.java,v 1.25 2006/09/29 16:47:18 hallm Exp $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  * @author Craig Fleming (rythos@rhana.dhs.org)
  * @author Renaud Michel (r.michel@immedia.be)

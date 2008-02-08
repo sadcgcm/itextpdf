@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: ProgressDialog.java,v 1.3 2006/09/14 23:10:58 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Carsten Hammer.
  *

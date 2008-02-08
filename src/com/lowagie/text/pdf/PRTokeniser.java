@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: PRTokeniser.java,v 1.55 2006/09/16 19:38:16 xlv Exp $
  *
  * Copyright 2001, 2002 by Paulo Soares.
  *

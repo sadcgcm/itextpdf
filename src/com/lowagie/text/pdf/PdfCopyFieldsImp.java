@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfCopyFieldsImp.java,v 1.17 2006/10/27 17:23:19 xlv Exp $
+ * $Name:  $
  * Copyright 2004 by Paulo Soares.
  *
  * The contents of this file are subject to the Mozilla Public License Version 1.1

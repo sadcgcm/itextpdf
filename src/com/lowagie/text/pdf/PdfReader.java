@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfReader.java,v 1.87 2006/11/11 17:04:30 psoares33 Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 Paulo Soares
  *
@@ -3117,7 +3117,7 @@ public class PdfReader {
                 else {
                     IntHashtable refs2 = new IntHashtable((refsp.size() + 1) * 2);
                     for (Iterator it = refsp.getEntryIterator(); it.hasNext();) {
-                        IntHashtable.IntHashtableEntry entry = (IntHashtable.IntHashtableEntry)it.next();
+                        IntHashtable.Entry entry = (IntHashtable.Entry)it.next();
                         int p = entry.getKey();
                         refs2.put(p >= pageNum ? p + 1 : p, entry.getValue());
                     }

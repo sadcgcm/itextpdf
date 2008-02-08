@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfTOCEntry.java,v 1.11 2006/09/12 12:16:35 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2004 by Mark Hall
  * Uses code Copyright 2002

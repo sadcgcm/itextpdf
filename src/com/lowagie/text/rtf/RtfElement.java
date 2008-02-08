@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfElement.java,v 1.8 2004/12/14 15:14:44 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002, 2003, 2004 by Mark Hall
  *
@@ -55,7 +55,7 @@ import com.lowagie.text.rtf.document.RtfDocument;
 /**
  * RtfElement is the base class for all RTF Element classes
  *
- * Version: $Id$
+ * Version: $Id: RtfElement.java,v 1.8 2004/12/14 15:14:44 blowagie Exp $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public class RtfElement implements RtfBasicElement {

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: SimpletextTreeNode.java,v 1.2 2006/08/21 13:29:47 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Carsten Hammer.
  *

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: MarkupParser.java,v 1.63 2006/10/26 14:19:35 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 by Bruno Lowagie.
  *

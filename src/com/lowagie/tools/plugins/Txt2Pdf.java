@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Txt2Pdf.java,v 1.9 2005/11/29 21:05:02 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *
@@ -75,7 +75,7 @@ import com.lowagie.tools.arguments.ToolArgument;
 public class Txt2Pdf extends AbstractTool {
 
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: Txt2Pdf.java,v 1.9 2005/11/29 21:05:02 blowagie Exp $");
 	}
 	/**
 	 * Constructs a Txt2Pdf object.

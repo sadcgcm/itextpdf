@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Watermark.java,v 1.53 2006/09/14 22:38:41 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2000, 2001, 2002 by Bruno Lowagie.
  *

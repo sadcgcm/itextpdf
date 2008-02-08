@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfAcroForm.java,v 1.47 2006/10/27 17:23:18 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2002 Bruno Lowagie
  *

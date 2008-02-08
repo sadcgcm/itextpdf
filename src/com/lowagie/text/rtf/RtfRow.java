@@ -1,6 +1,6 @@
 /**
- * $Id$
- * $Name$
+ * $Id: RtfRow.java,v 1.40 2006/09/24 18:41:47 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 by Mark Hall
  *

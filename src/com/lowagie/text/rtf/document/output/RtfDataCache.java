@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfDataCache.java,v 1.1 2005/02/02 18:09:32 hallm Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Mark Hall
  *
@@ -58,7 +58,7 @@ import java.io.OutputStream;
  * The RtfDataCache interface must be implemented by classes wishing to
  * act as caches for the rtf document data.
  * 
- * @version $Revision$
+ * @version $Revision: 1.1 $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public interface RtfDataCache {

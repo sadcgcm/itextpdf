@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfWriter.java,v 1.73 2006/09/16 03:38:45 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 by Mark Hall
  *

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: ImageFilter.java,v 1.2 2006/02/02 18:50:07 psoares33 Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *

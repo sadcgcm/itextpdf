@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfTotalPageNumber.java,v 1.4 2006/09/14 23:10:55 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 Jose Hurtado <a href="mailto:jose.hurtado@gft.com">jose.hurtado@gft.com</a>
  * Parts Copyright 2005 Mark Hall

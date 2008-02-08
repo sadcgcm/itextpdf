@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Image.java,v 1.119 2006/12/18 13:14:06 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

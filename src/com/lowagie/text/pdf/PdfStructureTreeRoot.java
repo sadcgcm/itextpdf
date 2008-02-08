@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: PdfStructureTreeRoot.java,v 1.3 2006/09/14 23:10:50 xlv Exp $
  *
  * Copyright 2005 by Paulo Soares.
  *

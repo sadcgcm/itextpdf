@@ -1,6 +1,6 @@
 /*
- * $Name$
- * $Id$
+ * $Name:  $
+ * $Id: PdfDocument.java,v 1.247 2006/12/20 12:08:07 blowagie Exp $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *
@@ -1893,13 +1893,13 @@ class PdfDocument extends Document implements DocListener {
                         break; //nothing to do
 
                     // before every table, we add a new line and flush all lines
-                    
+
                     indentLeft -= paraIndent + sectionIndentL;
                     indentRight -= sectionIndentR;
+                    ensureNewLine();
                     flushLines();
                     indentLeft += paraIndent + sectionIndentL;
                     indentRight += sectionIndentR;
-                    ensureNewLine();
                     
                     addPTable(ptable);
                     pageEmpty = false;

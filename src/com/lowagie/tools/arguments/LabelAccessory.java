@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: LabelAccessory.java,v 1.6 2006/08/24 10:26:07 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Carsten Hammer.
  * Inspired by http://java.sun.com/developer/JDCTechTips/2004/tt0316.html

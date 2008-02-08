@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfTabGroup.java,v 1.1 2006/06/17 09:51:30 hallm Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002, 2003, 2004 by Mark Hall
  *
@@ -71,7 +71,7 @@ import com.lowagie.text.rtf.RtfAddableElement;
  * para.add(tabs);<br />
  * para.add("\tLeft aligned\tCentre aligned\t12,45\tRight aligned");</code>
  * 
- * @version $Revision$
+ * @version $Revision: 1.1 $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public class RtfTabGroup extends RtfAddableElement {

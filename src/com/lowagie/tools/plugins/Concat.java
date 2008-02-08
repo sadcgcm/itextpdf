@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Concat.java,v 1.8 2006/10/27 17:23:25 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *
@@ -71,7 +71,7 @@ import com.lowagie.tools.arguments.ToolArgument;
 public class Concat extends AbstractTool {
 
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: Concat.java,v 1.8 2006/10/27 17:23:25 xlv Exp $");
 	}
 	/**
 	 * Constructs a Concat object.

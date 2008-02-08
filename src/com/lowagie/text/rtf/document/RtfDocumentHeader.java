@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfDocumentHeader.java,v 1.17 2006/09/07 09:33:14 hallm Exp $
+ * $Name:  $
  *
  * Copyright 2003, 2004 by Mark Hall
  *

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: XmpBasicSchema.java,v 1.7 2006/09/14 23:10:57 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: ImgTemplate.java,v 1.53 2006/09/14 23:10:40 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2000, 2001, 2002 by Paulo Soares.
  *

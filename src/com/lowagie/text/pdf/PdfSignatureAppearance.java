@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: PdfSignatureAppearance.java,v 1.24 2006/09/21 16:58:38 xlv Exp $
  *
  * Copyright 2004-2006 by Paulo Soares.
  *

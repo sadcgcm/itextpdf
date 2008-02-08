@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfField.java,v 1.13 2006/11/20 15:03:54 hallm Exp $
+ * $Name:  $
  *
  * Copyright 2004 by Mark Hall
  * Uses code Copyright 2002

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Chapter.java,v 1.72 2006/11/21 12:57:20 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

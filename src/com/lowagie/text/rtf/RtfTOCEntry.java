@@ -1,5 +1,5 @@
 /**
- * $Id$
+ * $Id: RtfTOCEntry.java,v 1.24 2006/09/12 12:16:35 blowagie Exp $
  *
  * Copyright 2002 by 
  * <a href="http://www.smb-tec.com">SMB</a> 
@@ -65,7 +65,7 @@ import com.lowagie.text.Font;
  *
  * This class is based on the RtfWriter-package from Mark Hall.
  * @author Steffen.Stundzig (Steffen.Stundzig@smb-tec.com) 
- * @version $Revision$Date: 2006/02/09 17:25:26 $
+ * @version $Revision: 1.24 $Date: 2006/09/12 12:16:35 $
  * @deprecated Please move to the RtfWriter2 and associated classes. com.lowagie.text.rtf.field.RtfTOCEntry replaces the functionality of this class.
  */
 public class RtfTOCEntry extends Chunk implements RtfField {

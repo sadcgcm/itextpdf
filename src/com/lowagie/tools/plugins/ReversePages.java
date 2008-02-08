@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: ReversePages.java,v 1.4 2006/08/24 10:43:43 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie and Carsten Hammer.
  *
@@ -71,7 +71,7 @@ public class ReversePages
 
   static {
     addVersion(
-        "$Id$");
+        "$Id: ReversePages.java,v 1.4 2006/08/24 10:43:43 blowagie Exp $");
   }
 
   /**

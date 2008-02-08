@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Rectangle.java,v 1.78 2006/09/15 23:37:32 xlv Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

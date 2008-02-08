@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: TextElementArray.java,v 1.59 2005/05/04 14:31:18 blowagie Exp $
+ * $Name:  $
  *
  * Copyright (c) 1999, 2000, 2001, 2002 Bruno Lowagie.
  *

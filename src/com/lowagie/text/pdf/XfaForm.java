@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: XfaForm.java,v 1.9 2006/11/02 10:34:06 psoares33 Exp $
  *
  * Copyright 2006 Paulo Soares
  *

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: AbstractTool.java,v 1.12 2006/10/27 17:23:25 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *

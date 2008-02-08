@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: MetaDo.java,v 1.6 2006/10/27 17:23:24 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 Paulo Soares
  *

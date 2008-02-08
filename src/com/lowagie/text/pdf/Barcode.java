@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: Barcode.java,v 1.22 2006/12/20 10:12:33 blowagie Exp $
  *
  * Copyright 2002-2006 by Paulo Soares.
  *
@@ -451,6 +451,7 @@ public abstract class Barcode {
      *
      */
     public void setInkSpreading(float inkSpreading) {
+    	this.inkSpreading = inkSpreading;
     }
 
     /**

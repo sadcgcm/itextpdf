@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfPTableEventForwarder.java,v 1.1 2005/10/27 15:57:52 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 Bruno Lowagie
  *

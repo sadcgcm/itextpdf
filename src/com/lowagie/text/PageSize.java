@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PageSize.java,v 1.60 2006/11/09 13:55:26 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

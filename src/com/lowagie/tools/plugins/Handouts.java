@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Handouts.java,v 1.7 2005/11/29 21:05:02 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *
@@ -73,7 +73,7 @@ import com.lowagie.tools.arguments.ToolArgument;
 public class Handouts extends AbstractTool {
 
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: Handouts.java,v 1.7 2005/11/29 21:05:02 blowagie Exp $");
 	}
 
 	/**

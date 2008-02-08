@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Tiff2Pdf.java,v 1.9 2005/11/29 21:05:02 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *
@@ -76,7 +76,7 @@ import com.lowagie.tools.arguments.ToolArgument;
 public class Tiff2Pdf extends AbstractTool {
 	
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: Tiff2Pdf.java,v 1.9 2005/11/29 21:05:02 blowagie Exp $");
 	}
 	/**
 	 * Constructs a Tiff2Pdf object.

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: XmlWriter.java,v 1.41 2006/09/21 17:13:05 xlv Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

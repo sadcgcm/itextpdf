@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfImage.java,v 1.23 2005/12/24 13:14:28 hallm Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002, 2003, 2004 by Mark Hall
  *
@@ -68,7 +68,7 @@ import com.lowagie.text.rtf.text.RtfParagraph;
 /**
  * The RtfImage contains one image. Supported image types are jpeg, png, wmf, bmp.
  * 
- * @version $Revision$
+ * @version $Revision: 1.23 $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  * @author Paulo Soares
  */

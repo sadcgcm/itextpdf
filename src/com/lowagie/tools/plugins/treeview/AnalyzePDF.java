@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: AnalyzePDF.java,v 1.11 2006/12/18 13:48:27 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Carsten Hammer.
  *

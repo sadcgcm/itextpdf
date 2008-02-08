@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Anchor.java,v 1.89 2006/09/16 19:07:58 xlv Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

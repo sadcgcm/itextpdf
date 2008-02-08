@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfCodePage.java,v 1.17 2006/09/14 23:10:55 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2003, 2004 by Mark Hall
  *
@@ -60,7 +60,7 @@ import com.lowagie.text.rtf.RtfExtendedElement;
  * The RtfCodePage class allows different code pages to be used in the rtf document.
  * Currently always ansi / ansicpg1252
  *
- * Version: $Id$
+ * Version: $Id: RtfCodePage.java,v 1.17 2006/09/14 23:10:55 xlv Exp $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public class RtfCodePage extends RtfElement implements RtfExtendedElement {

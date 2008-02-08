@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfLister.java,v 1.37 2006/09/14 23:10:49 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2002 Mark Thompson
  *

@@ -1,6 +1,6 @@
 /**
- * $Id$
- * $Name$
+ * $Id: RtfColorTableParser.java,v 1.6 2006/09/15 23:37:37 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2006 by Mark Hall
  *
@@ -56,7 +56,7 @@ import java.awt.Color;
  * by the RtfTokeniser while the RTF color table is
  * being parsed.
  * 
- * @version $Revision$
+ * @version $Revision: 1.6 $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public class RtfColorTableParser {

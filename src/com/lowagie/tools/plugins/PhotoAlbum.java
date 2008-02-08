@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PhotoAlbum.java,v 1.10 2006/09/15 21:00:25 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *
@@ -75,7 +75,7 @@ import com.lowagie.tools.arguments.ToolArgument;
 public class PhotoAlbum extends AbstractTool {
 
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: PhotoAlbum.java,v 1.10 2006/09/15 21:00:25 xlv Exp $");
 	}
 	/**
 	 * Constructs a PhotoAlbum object.

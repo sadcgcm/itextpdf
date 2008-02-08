@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfTab.java,v 1.1 2006/06/17 09:51:30 hallm Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002, 2003, 2004 by Mark Hall
  *
@@ -68,7 +68,7 @@ import com.lowagie.text.rtf.RtfAddableElement;
  * para.add(tab);<br />
  * para.add("This paragraph has a\ttab defined.");</code>
  * 
- * @version $Revision$
+ * @version $Revision: 1.1 $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public class RtfTab extends RtfAddableElement {

@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Split.java,v 1.10 2006/08/24 10:51:06 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie
  *
@@ -71,7 +71,7 @@ import com.lowagie.tools.arguments.ToolArgument;
 public class Split extends AbstractTool {
 
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: Split.java,v 1.10 2006/08/24 10:51:06 blowagie Exp $");
 	}
 	/**
 	 * Constructs an Split object.

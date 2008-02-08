@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: PdfWriter.java,v 1.126 2006/11/16 23:58:33 psoares33 Exp $
  *
  * Copyright 1999, 2000, 2001, 2002 Bruno Lowagie
  *

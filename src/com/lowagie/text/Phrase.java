@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Phrase.java,v 1.111 2006/11/29 08:58:47 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

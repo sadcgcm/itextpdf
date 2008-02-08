@@ -1,6 +1,6 @@
 /**
- * $Id$
- * $Name$
+ * $Id: RtfTokeniser.java,v 1.7 2006/10/06 14:58:54 psoares33 Exp $
+ * $Name:  $
  *
  * Copyright 2006 by Mark Hall
  *
@@ -66,7 +66,7 @@ import java.io.Reader;
  *   <li>Text</li>
  * </ul>
  * 
- * @version $Revision$
+ * @version $Revision: 1.7 $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  * @author Bullo (bullo70@users.sourceforge.net)
  */

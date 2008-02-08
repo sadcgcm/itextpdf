@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: HtmlTagMap.java,v 1.16 2006/09/14 23:39:19 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 by Bruno Lowagie.
  *

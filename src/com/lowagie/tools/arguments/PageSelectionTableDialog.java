@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PageSelectionTableDialog.java,v 1.4 2006/09/15 23:37:37 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Carsten Hammer.
  *

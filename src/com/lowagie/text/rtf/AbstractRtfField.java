@@ -1,5 +1,5 @@
 /**
- * $Id$
+ * $Id: AbstractRtfField.java,v 1.19 2006/09/14 23:10:54 xlv Exp $
  *
  * Copyright 2002 by 
  * <a href="http://www.smb-tec.com">SMB</a> 
@@ -67,7 +67,7 @@ import com.lowagie.text.Font;
  * ONLY FOR USE WITH THE RtfWriter NOT with the RtfWriter2.
  *
  * @author Dirk Weigenand (Dirk.Weigenand@smb-tec.com)
- * @version $Id$
+ * @version $Id: AbstractRtfField.java,v 1.19 2006/09/14 23:10:54 xlv Exp $
  * @since Mon Aug 19 14:50:39 2002
  * @deprecated Please move to the RtfWriter2 and associated classes.
  */

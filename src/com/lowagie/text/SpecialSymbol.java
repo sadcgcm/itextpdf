@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: SpecialSymbol.java,v 1.1 2004/12/23 09:14:47 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

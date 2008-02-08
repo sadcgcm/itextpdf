@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RemoveLaunchApplication.java,v 1.4 2005/11/29 21:05:02 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie
  *
@@ -73,7 +73,7 @@ public class RemoveLaunchApplication
 
   static {
     addVersion(
-        "$Id$");
+        "$Id: RemoveLaunchApplication.java,v 1.4 2005/11/29 21:05:02 blowagie Exp $");
   }
 
   /**

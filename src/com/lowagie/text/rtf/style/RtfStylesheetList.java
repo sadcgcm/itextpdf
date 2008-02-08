@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: RtfStylesheetList.java,v 1.2 2006/08/07 10:42:35 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002, 2003, 2004 by Mark Hall
  *
@@ -63,7 +63,7 @@ import com.lowagie.text.rtf.document.RtfDocument;
 /**
  * The RtfStylesheetList stores the RtfParagraphStyles that are used in the document.
  * 
- * @version $Revision$
+ * @version $Revision: 1.2 $
  * @author Mark Hall (mhall@edu.uni-klu.ac.at)
  */
 public class RtfStylesheetList extends RtfElement implements RtfExtendedElement {

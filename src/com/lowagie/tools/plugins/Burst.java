@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Burst.java,v 1.10 2006/09/15 23:37:38 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie, based on an example by Mark Thompson
  *
@@ -70,7 +70,7 @@ import com.lowagie.tools.arguments.ToolArgument;
 public class Burst extends AbstractTool {
 
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: Burst.java,v 1.10 2006/09/15 23:37:38 xlv Exp $");
 	}
 
 	/**

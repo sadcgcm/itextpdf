@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: RC4Encryption.java,v 1.1 2006/11/08 17:33:43 psoares33 Exp $
  *
  * Copyright 2006 Paulo Soares
  *

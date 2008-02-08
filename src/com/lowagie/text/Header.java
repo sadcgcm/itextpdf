@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: Header.java,v 1.61 2005/05/04 14:31:10 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

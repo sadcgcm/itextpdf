@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: ICommonAnalyzer.java,v 1.3 2006/08/21 09:56:45 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Carsten Hammer
  *

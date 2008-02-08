@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: CFFFontSubset.java,v 1.7 2006/09/15 01:10:02 xlv Exp $
+ * $Name:  $
  *
  * Copyright 2004 Oren Manor and Ygal Blum
  *

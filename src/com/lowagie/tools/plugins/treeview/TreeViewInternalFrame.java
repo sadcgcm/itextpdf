@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: TreeViewInternalFrame.java,v 1.8 2006/10/26 14:19:34 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Carsten Hammer.
  *

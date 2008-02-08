@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: HtmlWriter.java,v 1.114 2006/09/15 23:37:33 xlv Exp $
+ * $Name:  $
  *
  * Copyright 1999, 2000, 2001, 2002 by Bruno Lowagie.
  *

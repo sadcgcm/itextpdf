@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: SplitCharacter.java,v 1.44 2005/05/04 14:31:17 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2001, 2002 by Paulo Soares
  *

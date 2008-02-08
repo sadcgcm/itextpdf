@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: PdfName.java,v 1.86 2006/12/18 13:07:35 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 1999-2006 Bruno Lowagie
  *

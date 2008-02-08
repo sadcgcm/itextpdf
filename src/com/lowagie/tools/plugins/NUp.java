@@ -1,6 +1,6 @@
 /*
- * $Id$
- * $Name$
+ * $Id: NUp.java,v 1.7 2006/08/24 10:01:13 blowagie Exp $
+ * $Name:  $
  *
  * Copyright 2005 by Bruno Lowagie.
  *
@@ -71,7 +71,7 @@ import com.lowagie.tools.arguments.ToolArgument;
 public class NUp extends AbstractTool {
 	
 	static {
-		addVersion("$Id$");
+		addVersion("$Id: NUp.java,v 1.7 2006/08/24 10:01:13 blowagie Exp $");
 	}
 	
 	/**
