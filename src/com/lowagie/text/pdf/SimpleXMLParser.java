@@ -45,8 +45,8 @@
  * http://www.lowagie.com/iText/
  * 
  * The code to recognize the encoding in this class and the code to
- * convert IANA Encodings to Java encodings was taken from Apache Xerces
- * published under the following license:
+ * convert IANA Encodings to Java encodings was taken from Apache Xerces.
+ * It is used under the MPL; it was originally published under the following license:
  * 
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
@@ -63,9 +63,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  * 
- * Part of this code is based on <A HREF="http://www.javaworld.com/javatips/jw-javatip128_p.html">http://www.javaworld.com/javatips/jw-javatip128_p.html</A>.
- * The original author Steven Brandt gave his permission to use the code for free
- * in a mail addressed to Bruno Lowagie.
+ * Part of this code is based on the Quick-and-Dirty XML parser by Steven Brandt.
+ * The code for the Quick-and-Dirty parser was published in JavaWorld (java tip 128).
+ * Steven Brandt and JavaWorld gave permission to use the code for free
+ * (Bruno Lowagie and Paulo Soares chose to use it under the MPL/LGPL in
+ * conformance with the rest of the code).
+ * The original code can be found on this url: <A HREF="http://www.javaworld.com/javatips/jw-javatip128_p.html">http://www.javaworld.com/javatips/jw-javatip128_p.html</A>.
  */
 package com.lowagie.text.pdf;
 

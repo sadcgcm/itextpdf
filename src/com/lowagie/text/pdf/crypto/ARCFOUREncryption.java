@@ -1,8 +1,7 @@
 /*
- * $Id: DictionaryTreeNode.java,v 1.6 2006/10/26 14:19:34 blowagie Exp $
- * $Name:  $
+ * $Id: ARCFOUREncryption.java,v 1.1 2006/11/08 17:33:43 psoares33 Exp $
  *
- * Copyright 2005 by Carsten Hammer.
+ * Copyright 2006 Paulo Soares
  *
  * The contents of this file are subject to the Mozilla Public License Version 1.1
  * (the "License"); you may not use this file except in compliance with the License.
@@ -47,61 +46,60 @@
  * you aren't using an obsolete version:
  * http://www.lowagie.com/iText/
  */
+package com.lowagie.text.pdf.crypto;
 
-package com.lowagie.tools.plugins.treeview;
+public class ARCFOUREncryption {
+    private byte state[] = new byte[256];
+    private int x;
+    private int y;
 
-import java.util.Iterator;
-import java.util.Set;
+    /** Creates a new instance of ARCFOUREncryption */
+    public ARCFOUREncryption() {
+    }
+    
+    public void prepareARCFOURKey(byte key[]) {
+        prepareARCFOURKey(key, 0, key.length);
+    }
 
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
+    public void prepareARCFOURKey(byte key[], int off, int len) {
+        int index1 = 0;
+        int index2 = 0;
+        for (int k = 0; k < 256; ++k)
+            state[k] = (byte)k;
+        x = 0;
+        y = 0;
+        byte tmp;
+        for (int k = 0; k < 256; ++k) {
+            index2 = (key[index1 + off] + state[k] + index2) & 255;
+            tmp = state[k];
+            state[k] = state[index2];
+            state[index2] = tmp;
+            index1 = (index1 + 1) % len;
+        }
+    }
 
-import com.lowagie.text.pdf.PdfDictionary;
+    public void encryptARCFOUR(byte dataIn[], int off, int len, byte dataOut[], int offOut) {
+        int length = len + off;
+        byte tmp;
+        for (int k = off; k < length; ++k) {
+            x = (x + 1) & 255;
+            y = (state[x] + y) & 255;
+            tmp = state[x];
+            state[x] = state[y];
+            state[y] = tmp;
+            dataOut[k - off + offOut] = (byte)(dataIn[k] ^ state[(state[x] + state[y]) & 255]);
+        }
+    }
 
-/**
- * Treenode for PdfDictionary objects.
- */
-public class DictionaryTreeNode extends UpdateableTreeNode {
+    public void encryptARCFOUR(byte data[], int off, int len) {
+        encryptARCFOUR(data, off, len, data, off);
+    }
 
-	private static final long serialVersionUID = -450788211803629233L;
+    public void encryptARCFOUR(byte dataIn[], byte dataOut[]) {
+        encryptARCFOUR(dataIn, 0, dataIn.length, dataOut, 0);
+    }
 
-	PdfDictionary dictionary;
-
-	public DictionaryTreeNode(Object userObject, PdfDictionary dictionary) {
-		super(userObject);
-		this.dictionary = dictionary;
-	}
-
-	public DictionaryTreeNode(Object userObject, boolean allowchildren) {
-		super(userObject, allowchildren);
-	}
-
-	/**
-	 * updateview
-	 * 
-	 * @param updateobject
-	 *            IUpdatenodeview
-	 */
-	public void updateview(IUpdatenodeview updateobject) {
-		StringBuffer sb = new StringBuffer();
-		sb.append("<html>");
-		sb.append("<p>");
-		sb.append(this.userObject);
-		sb.append("</p>");
-		Set set = dictionary.getKeys();
-		Iterator it = set.iterator();
-		while (it.hasNext()) {
-			sb.append("<p>");
-			sb.append("Key ").append(it.next().toString());
-			sb.append("</p>");
-		}
-		sb.append("</html>");
-		updateobject.showvalues(sb.toString());
-	}
-
-	public Icon getIcon() {
-		return new ImageIcon(TreeViewInternalFrame.class
-				.getResource("dictionary.gif"));
-	}
-
+    public void encryptARCFOUR(byte data[]) {
+        encryptARCFOUR(data, 0, data.length, data, 0);
+    }   
 }
