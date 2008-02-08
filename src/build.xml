@@ -98,6 +98,10 @@
 		<ant antfile="ant/release.xml" inheritAll="false" target="ant.zip" />
 	</target>
 	
+	<target name="asian.jar">
+		<ant antfile="ant/release.xml" inheritAll="false" target="asian.jar" />
+	</target>
+	
 	<target name="changelog">
 		<ant antfile="ant/release.xml" inheritAll="false" target="changelog" />
 	</target>

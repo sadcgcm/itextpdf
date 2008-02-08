@@ -264,7 +264,7 @@ public class PdfStamper {
      * @param userPassword the user password. Can be null or empty
      * @param ownerPassword the owner password. Can be null or empty
      * @param permissions the user permissions
-     * @param encryptionType the type of encryption. It can be one of ENCRYPTION_ARCFOUR_40, ENCRYPTION_ARCFOUR_128 or ENCRYPTION_AES128.
+     * @param encryptionType the type of encryption. It can be one of STANDARD_ENCRYPTION_40, STANDARD_ENCRYPTION_128 or ENCRYPTION_AES128.
      * Optionally DO_NOT_ENCRYPT_METADATA can be ored to output the metadata in cleartext
      * @throws DocumentException if the document is already open
      */
@@ -300,7 +300,7 @@ public class PdfStamper {
      *  AllowPrinting, AllowModifyContents, AllowCopy, AllowModifyAnnotations,
      *  AllowFillIn, AllowScreenReaders, AllowAssembly and AllowDegradedPrinting.
      *  The permissions can be combined by ORing them.
-     * @param encryptionType the type of encryption. It can be one of ENCRYPTION_ARCFOUR_40, ENCRYPTION_ARCFOUR_128 or ENCRYPTION_AES128.
+     * @param encryptionType the type of encryption. It can be one of STANDARD_ENCRYPTION_40, STANDARD_ENCRYPTION_128 or ENCRYPTION_AES128.
      * Optionally DO_NOT_ENCRYPT_METADATA can be ored to output the metadata in cleartext
      * @param userPassword the user password. Can be null or empty
      * @param ownerPassword the owner password. Can be null or empty

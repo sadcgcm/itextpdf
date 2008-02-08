@@ -66,7 +66,6 @@ import com.lowagie.text.Document;
 import com.lowagie.text.DocumentException;
 import com.lowagie.text.ExceptionConverter;
 import com.lowagie.text.Image;
-import com.lowagie.text.ImgPostscript;
 import com.lowagie.text.ImgWMF;
 import com.lowagie.text.Rectangle;
 import com.lowagie.text.Table;
@@ -648,9 +647,9 @@ public class PdfWriter extends DocWriter {
     /** Type of ARCFOUR encryption strength */
     public static final boolean STRENGTH128BITS = true;
     /** Type of encryption */
-    public static final int ENCRYPTION_ARCFOUR_40 = 0;
+    public static final int STANDARD_ENCRYPTION_40 = 0;
     /** Type of encryption */
-    public static final int ENCRYPTION_ARCFOUR_128 = 1;
+    public static final int STANDARD_ENCRYPTION_128 = 1;
     /** Type of encryption */
     public static final int ENCRYPTION_AES_128 = 2;
     static final int ENCRYPTION_MASK = 7;
@@ -969,14 +968,6 @@ public class PdfWriter extends DocWriter {
                         catch (Exception e) {
                             throw new DocumentException(e);
                         }
-                    }else{
-                        try {
-                            ((ImgPostscript)image).readPostscript(getDirectContent().createTemplate(0, 0));
-                        }
-                        catch (Exception e) {
-                            throw new DocumentException(e);
-                        }
-                        
                     }
                 }
             }
@@ -1922,7 +1913,7 @@ public class PdfWriter extends DocWriter {
      * @throws DocumentException if the document is already open
      */
     public void setEncryption(byte userPassword[], byte ownerPassword[], int permissions, boolean strength128Bits) throws DocumentException {
-        setEncryption(userPassword, ownerPassword, permissions, strength128Bits ? ENCRYPTION_ARCFOUR_128 : ENCRYPTION_ARCFOUR_40);
+        setEncryption(userPassword, ownerPassword, permissions, strength128Bits ? STANDARD_ENCRYPTION_128 : STANDARD_ENCRYPTION_40);
     }
     
     /** Sets the encryption options for this document. The userPassword and the
@@ -1934,7 +1925,7 @@ public class PdfWriter extends DocWriter {
      * @param userPassword the user password. Can be null or empty
      * @param ownerPassword the owner password. Can be null or empty
      * @param permissions the user permissions
-     * @param encryptionType the type of encryption. It can be one of ENCRYPTION_ARCFOUR_40, ENCRYPTION_ARCFOUR_128 or ENCRYPTION_AES128.
+     * @param encryptionType the type of encryption. It can be one of STANDARD_ENCRYPTION_40, STANDARD_ENCRYPTION_128 or ENCRYPTION_AES128.
      * Optionally DO_NOT_ENCRYPT_METADATA can be ored to output the metadata in cleartext
      * @throws DocumentException if the document is already open
      */
@@ -1970,7 +1961,7 @@ public class PdfWriter extends DocWriter {
      *  AllowPrinting, AllowModifyContents, AllowCopy, AllowModifyAnnotations,
      *  AllowFillIn, AllowScreenReaders, AllowAssembly and AllowDegradedPrinting.
      *  The permissions can be combined by ORing them.
-     * @param encryptionType the type of encryption. It can be one of ENCRYPTION_ARCFOUR_40, ENCRYPTION_ARCFOUR_128 or ENCRYPTION_AES128.
+     * @param encryptionType the type of encryption. It can be one of STANDARD_ENCRYPTION_40, STANDARD_ENCRYPTION_128 or ENCRYPTION_AES128.
      * Optionally DO_NOT_ENCRYPT_METADATA can be ored to output the metadata in cleartext
      * @param userPassword the user password. Can be null or empty
      * @param ownerPassword the owner password. Can be null or empty

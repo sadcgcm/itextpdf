@@ -100,7 +100,6 @@ public class PdfReader {
     private ArrayList xrefObj;
     PdfDictionary rootPages;
     protected PdfDictionary trailer;
-    //protected ArrayList pages;
     protected PdfDictionary catalog;
     protected PageRefs pageRefs;
     protected PRAcroForm acroForm = null;
@@ -115,6 +114,7 @@ public class PdfReader {
     protected char pdfVersion;
     protected PdfEncryption decrypt;
     protected byte password[] = null; //added by ujihara for decryption
+    private boolean ownerPasswordUsed;
     protected ArrayList strings = new ArrayList();
     protected boolean sharedStreams = true;
     protected boolean consolidateNamedDestinations = false;
@@ -127,7 +127,6 @@ public class PdfReader {
     private int lastXrefPartial = -1;
     private boolean partial;
     private PRIndirectReference cryptoRef;
-    private static int rove;
 
     /**
      * Holds value of property appendable.
@@ -267,6 +266,7 @@ public class PdfReader {
         this.objStmToOffset = reader.objStmToOffset;
         this.xref = reader.xref;
         this.cryptoRef = (PRIndirectReference)duplicatePdfObject(reader.cryptoRef, this);
+        this.ownerPasswordUsed = reader.ownerPasswordUsed;
     }
 
     /** Gets a new file instance of the original PDF
@@ -590,7 +590,7 @@ public class PdfReader {
             lengthValue = ( (PdfNumber) o).intValue();
             if (lengthValue > 128 || lengthValue < 40 || lengthValue % 8 != 0)
                 throw new IOException("Illegal Length value.");
-            cryptoMode = PdfWriter.ENCRYPTION_ARCFOUR_128;
+            cryptoMode = PdfWriter.STANDARD_ENCRYPTION_128;
         }
         else if (rValue == 4) {
             PdfDictionary dic = (PdfDictionary)enc.get(PdfName.CF);
@@ -600,7 +600,7 @@ public class PdfReader {
             if (dic == null)
                 throw new IOException("/StdCF not found (encryption)");
             if (PdfName.V2.equals(dic.get(PdfName.CFM)))
-                cryptoMode = PdfWriter.ENCRYPTION_ARCFOUR_128;
+                cryptoMode = PdfWriter.STANDARD_ENCRYPTION_128;
             else if (PdfName.AESV2.equals(dic.get(PdfName.CFM)))
                 cryptoMode = PdfWriter.ENCRYPTION_AES_128;
             else
@@ -609,14 +609,13 @@ public class PdfReader {
             if (em != null && em.toString().equals("false"))
                 cryptoMode |= PdfWriter.DO_NOT_ENCRYPT_METADATA;
         } else {
-            cryptoMode = PdfWriter.ENCRYPTION_ARCFOUR_40;
+            cryptoMode = PdfWriter.STANDARD_ENCRYPTION_40;
         }
 
 
 
         decrypt = new PdfEncryption();
         decrypt.setCryptoMode(cryptoMode, lengthValue);
-
         //check by user password
         decrypt.setupByUserPassword(documentID, password, oValue, pValue);
         if (!equalsArray(uValue, decrypt.userKey, (rValue == 3 || rValue == 4) ? 16 : 32)) {
@@ -625,7 +624,9 @@ public class PdfReader {
             if (!equalsArray(uValue, decrypt.userKey, (rValue == 3 || rValue == 4) ? 16 : 32)) {
                 throw new IOException("Bad user password");
             }
+            ownerPasswordUsed = true;
         }
+        
         for (int k = 0; k < strings.size(); ++k) {
             PdfString str = (PdfString)strings.get(k);
             str.decrypt(this);
@@ -3268,5 +3269,16 @@ public class PdfReader {
         if (cryptoRef == null)
             return null;
         return new PdfIndirectReference(0, cryptoRef.getNumber(), cryptoRef.getGeneration());
+    }
+    
+    /**
+     * Checks if the document was opened with the owner password so that the end application
+     * can decide what level of access restrictions to apply. If the document is not encrypted
+     * it will return <CODE>true</CODE>.
+     * @return <CODE>true</CODE> if the document was opened with the owner password or if it's not encrypted,
+     * <CODE>false</CODE> if the document was opened with the user password
+     */
+    public final boolean isOpenedWithFullPermissions() {
+        return !encrypted || ownerPasswordUsed;
     }
 }

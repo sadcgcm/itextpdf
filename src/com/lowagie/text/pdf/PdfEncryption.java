@@ -64,8 +64,8 @@ import java.io.ByteArrayOutputStream;
  */
 public class PdfEncryption {
 
-    public static final int ARCFOUR_40 = 2;
-    public static final int ARCFOUR_128 = 3;
+    public static final int STANDARD_ENCRYPTION_40 = 2;
+    public static final int STANDARD_ENCRYPTION_128 = 3;
     public static final int AES_128 = 4;
 
     private static final byte[] pad = {
@@ -129,17 +129,17 @@ public class PdfEncryption {
         encryptMetadata = (mode & PdfWriter.DO_NOT_ENCRYPT_METADATA) == 0;
         mode &= PdfWriter.ENCRYPTION_MASK;
         switch (mode) {
-            case PdfWriter.ENCRYPTION_ARCFOUR_40:
+            case PdfWriter.STANDARD_ENCRYPTION_40:
                 encryptMetadata = true;
                 keyLength = 40;
-                revision = ARCFOUR_40;
+                revision = STANDARD_ENCRYPTION_40;
                 break;
-            case PdfWriter.ENCRYPTION_ARCFOUR_128:
+            case PdfWriter.STANDARD_ENCRYPTION_128:
                 if (kl > 0)
                     keyLength = kl;
                 else
                     keyLength = 128;
-                revision = ARCFOUR_128;
+                revision = STANDARD_ENCRYPTION_128;
                 break;
             case PdfWriter.ENCRYPTION_AES_128:
                 keyLength = 128;
@@ -180,7 +180,7 @@ public class PdfEncryption {
         byte ownerKey[] = new byte[32];
 
         byte digest[] = md5.digest(ownerPad);
-        if (revision == ARCFOUR_128 || revision == AES_128) {
+        if (revision == STANDARD_ENCRYPTION_128 || revision == AES_128) {
             byte mkey[] = new byte[keyLength/8];
             // only use for the input as many bit as the key consists of
             for (int k = 0; k < 50; ++k)
@@ -232,7 +232,7 @@ public class PdfEncryption {
         System.arraycopy(md5.digest(), 0, digest, 0, mkey.length);
 
         // only use the really needed bits as input for the hash
-        if (revision == ARCFOUR_128 || revision == AES_128){
+        if (revision == STANDARD_ENCRYPTION_128 || revision == AES_128){
             for (int k = 0; k < 50; ++k)
               System.arraycopy(md5.digest(digest), 0, digest, 0, mkey.length);
         }
@@ -247,7 +247,7 @@ public class PdfEncryption {
      */
     // use the revision to choose the setup method
     private void setupUserKey() {
-        if (revision == ARCFOUR_128 || revision == AES_128) {
+        if (revision == STANDARD_ENCRYPTION_128 || revision == AES_128) {
             md5.update(pad);
             byte digest[] = md5.digest(documentID);
             System.arraycopy(digest, 0, userKey, 0, 16);
@@ -270,7 +270,7 @@ public class PdfEncryption {
     public void setupAllKeys(byte userPassword[], byte ownerPassword[], int permissions) {
         if (ownerPassword == null || ownerPassword.length == 0)
             ownerPassword = md5.digest(createDocumentId());
-        permissions |= (revision == ARCFOUR_128 || revision == AES_128) ? 0xfffff0c0 : 0xffffffc0;
+        permissions |= (revision == STANDARD_ENCRYPTION_128 || revision == AES_128) ? 0xfffff0c0 : 0xffffffc0;
         permissions &= 0xfffffffc;
         //PDF refrence 3.5.2 Standard Security Handler, Algorithum 3.3-1
         //If there is no owner password, use the user password instead.
@@ -358,10 +358,10 @@ public class PdfEncryption {
         dic.put(PdfName.U, new PdfLiteral(PdfContentByte.escapeString(userKey)));
         dic.put(PdfName.P, new PdfNumber(permissions));
         dic.put(PdfName.R, new PdfNumber(revision));
-        if (revision == ARCFOUR_40) {
+        if (revision == STANDARD_ENCRYPTION_40) {
             dic.put(PdfName.V, new PdfNumber(1));
         }
-        else if (revision == ARCFOUR_128 && encryptMetadata) {
+        else if (revision == STANDARD_ENCRYPTION_128 && encryptMetadata) {
             dic.put(PdfName.V, new PdfNumber(2));
             dic.put(PdfName.LENGTH, new PdfNumber(128));
             
