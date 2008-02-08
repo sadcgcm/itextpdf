@@ -643,14 +643,14 @@ public class PdfWriter extends DocWriter {
     public static final int AllowAssembly = 1024;
     /** The operation permitted when the document is opened with the user password */
     public static final int AllowDegradedPrinting = 4;
-    /** Type of RC4 encryption strength*/
+    /** Type of ARCFOUR encryption strength*/
     public static final boolean STRENGTH40BITS = false;
-    /** Type of RC4 encryption strength */
+    /** Type of ARCFOUR encryption strength */
     public static final boolean STRENGTH128BITS = true;
     /** Type of encryption */
-    public static final int ENCRYPTION_RC4_40 = 0;
+    public static final int ENCRYPTION_ARCFOUR_40 = 0;
     /** Type of encryption */
-    public static final int ENCRYPTION_RC4_128 = 1;
+    public static final int ENCRYPTION_ARCFOUR_128 = 1;
     /** Type of encryption */
     public static final int ENCRYPTION_AES_128 = 2;
     static final int ENCRYPTION_MASK = 7;
@@ -1922,7 +1922,7 @@ public class PdfWriter extends DocWriter {
      * @throws DocumentException if the document is already open
      */
     public void setEncryption(byte userPassword[], byte ownerPassword[], int permissions, boolean strength128Bits) throws DocumentException {
-        setEncryption(userPassword, ownerPassword, permissions, strength128Bits ? ENCRYPTION_RC4_128 : ENCRYPTION_RC4_40);
+        setEncryption(userPassword, ownerPassword, permissions, strength128Bits ? ENCRYPTION_ARCFOUR_128 : ENCRYPTION_ARCFOUR_40);
     }
     
     /** Sets the encryption options for this document. The userPassword and the
@@ -1934,7 +1934,7 @@ public class PdfWriter extends DocWriter {
      * @param userPassword the user password. Can be null or empty
      * @param ownerPassword the owner password. Can be null or empty
      * @param permissions the user permissions
-     * @param encryptionType the type of encryption. It can be one of ENCRYPTION_RC4_40, ENCRYPTION_RC4_128 or ENCRYPTION_AES128.
+     * @param encryptionType the type of encryption. It can be one of ENCRYPTION_ARCFOUR_40, ENCRYPTION_ARCFOUR_128 or ENCRYPTION_AES128.
      * Optionally DO_NOT_ENCRYPT_METADATA can be ored to output the metadata in cleartext
      * @throws DocumentException if the document is already open
      */
@@ -1970,7 +1970,7 @@ public class PdfWriter extends DocWriter {
      *  AllowPrinting, AllowModifyContents, AllowCopy, AllowModifyAnnotations,
      *  AllowFillIn, AllowScreenReaders, AllowAssembly and AllowDegradedPrinting.
      *  The permissions can be combined by ORing them.
-     * @param encryptionType the type of encryption. It can be one of ENCRYPTION_RC4_40, ENCRYPTION_RC4_128 or ENCRYPTION_AES128.
+     * @param encryptionType the type of encryption. It can be one of ENCRYPTION_ARCFOUR_40, ENCRYPTION_ARCFOUR_128 or ENCRYPTION_AES128.
      * Optionally DO_NOT_ENCRYPT_METADATA can be ored to output the metadata in cleartext
      * @param userPassword the user password. Can be null or empty
      * @param ownerPassword the owner password. Can be null or empty

@@ -590,7 +590,7 @@ public class PdfReader {
             lengthValue = ( (PdfNumber) o).intValue();
             if (lengthValue > 128 || lengthValue < 40 || lengthValue % 8 != 0)
                 throw new IOException("Illegal Length value.");
-            cryptoMode = PdfWriter.ENCRYPTION_RC4_128;
+            cryptoMode = PdfWriter.ENCRYPTION_ARCFOUR_128;
         }
         else if (rValue == 4) {
             PdfDictionary dic = (PdfDictionary)enc.get(PdfName.CF);
@@ -600,7 +600,7 @@ public class PdfReader {
             if (dic == null)
                 throw new IOException("/StdCF not found (encryption)");
             if (PdfName.V2.equals(dic.get(PdfName.CFM)))
-                cryptoMode = PdfWriter.ENCRYPTION_RC4_128;
+                cryptoMode = PdfWriter.ENCRYPTION_ARCFOUR_128;
             else if (PdfName.AESV2.equals(dic.get(PdfName.CFM)))
                 cryptoMode = PdfWriter.ENCRYPTION_AES_128;
             else
@@ -609,7 +609,7 @@ public class PdfReader {
             if (em != null && em.toString().equals("false"))
                 cryptoMode |= PdfWriter.DO_NOT_ENCRYPT_METADATA;
         } else {
-            cryptoMode = PdfWriter.ENCRYPTION_RC4_40;
+            cryptoMode = PdfWriter.ENCRYPTION_ARCFOUR_40;
         }
 
 
