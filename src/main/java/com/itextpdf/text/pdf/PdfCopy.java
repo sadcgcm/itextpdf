@@ -321,7 +321,7 @@ public class PdfCopy extends PdfWriter {
             if (iobj == null) {
                 forDelete.add(entry.getKey());
             }
-            else if (iobj.object.isArray() || iobj.object.isDictionary()) {
+            else if (iobj.object.isArray() || iobj.object.isDictionary() || iobj.object.isStream()) {
                 forDelete.add(entry.getKey());
             }
         }
@@ -1050,6 +1050,7 @@ public class PdfCopy extends PdfWriter {
                     findActivesFromArray((PdfArray)obj, actives, activeKeys, activeClassMaps);
                     break;
                 case PdfObject.DICTIONARY:
+                case PdfObject.STREAM:
                     findActivesFromDict((PdfDictionary)obj, actives, activeKeys, activeClassMaps);
                     break;
             }
