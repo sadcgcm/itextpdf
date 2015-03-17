@@ -1739,7 +1739,7 @@ public class ColumnText {
                     }
                 }
 
-                // if not, we wan't to be able to add more than just a header and a footer
+                // if not, we want to be able to add more than just a header and a footer
                 if (!skipHeader) {
                     yTemp -= headerHeight;
                     if (yTemp < minY || yTemp > maxY) {
